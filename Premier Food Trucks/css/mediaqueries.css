@@ -1,0 +1,190 @@
+body {
+        background-image: url('../img/gray.png');
+        max-width: 100%;
+        text-align: justify;
+        height: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;       
+    }
+
+    h2{
+        color: #709DC4;
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: 1px 1px black;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+/*HEADER*/
+	.header{
+        /*height: 9em;*/
+        border-bottom: solid  5px white;
+        box-shadow: 2px 2px red;
+    }  
+    #logo{
+    	margin: 0 auto;
+    }  
+    
+    .nav ul {      
+        list-style:none;
+        text-align: center;
+    }
+
+	.nav li {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1em;  
+      line-height: 3em;
+      /*float: right;
+      text-align: center;
+      width: 16.5%;*/
+    }
+	
+	 .nav a {
+        height: 100%;
+        color: white;
+        text-shadow: 1px 1px #000;
+        text-decoration: none;
+        line-height: 3;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    #phonenumber{
+        /*float:right;*/
+        /*right-margin:2px;*/
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;      
+        text-shadow: 1px 1px black; 
+        text-align: center;      
+    }
+
+    #phonenumber a{
+    	list-style: none;
+    	color: red;
+    }
+
+/*CONTAINER*/
+	
+	#container{
+		width:95%;
+		margin: auto;
+		color: #fff;
+		text-shadow: 1px 1px #000;
+		text-align: center;
+	}
+
+	#container p{
+		text-align: justify;
+	}
+   
+    #tagline{
+        font-family: 'Montserrat', sans-serif;
+        font-size:2em;
+        position: block;      
+    }
+	#tagline p {
+		text-align: center;
+	}
+    
+
+    
+
+/*FOOTER*/
+	/*FOOTER NAVIGATION*/
+            
+            .footer{
+                margin-bottom:0;
+                max-width:100%; 
+                clear:both;
+                border-top: 2px solid #FFFFFF;
+                }
+
+                .footnav{
+                	display:none;
+                   max-width:100%; 
+                }
+
+                .footnav ul{
+                    width:100%;
+                    margin: 0  0 2em -1em;
+                    height: .25em;
+                    list-style: none;
+                   
+                }
+
+                .footnav li{
+                    float: left;
+                    font-size: .75em;
+                    height: 100%;
+                    width: 15%;
+                    text-align: left;
+                }
+
+                .footnav a{
+                    height: 100%;
+                    color: white;
+                    text-shadow: 1px 1px navy;
+                    text-decoration: none;                
+                    text-transform: lowercase;
+                }
+
+                .footnav a:hover{
+                    color: gray;
+                    text-shadow: 1px 1px black;
+                    text-decoration: none;
+                }
+/*SOCIAL MEDIA LINKS*/
+
+                .social ul{
+                    position: block;
+                    max-width:100%;
+                    list-style: none;
+                    margin: 0 3em 0 0;
+                 }
+
+                 .social li{
+                    float: left;
+                    width: 50%;
+                    text-decoration: none;                    
+                 }
+
+                 .social li:nth-child(1){
+                     text-align: right;
+                 }
+                .social li:nth-child(2){
+                    text-align:left;
+                }
+
+/*SQUATCHWORKS NOTATION*/
+                #clearfix{
+                    clear:left;
+                }
+
+                #copyright{
+                    max-width: 100%;
+                    text-align: center;
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: .75em;
+                    text-shadow: 1px 1px black;
+                } 
+
+                #squatch{
+                    max-width: 100%;
+                    text-align: center;
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: .75em;
+                    text-shadow: 1px 1px black;
+                }  
+
+
+
+
+
+
+
+
+
+

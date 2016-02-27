@@ -1,0 +1,63 @@
+html{
+  background: #020119;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  margin: 0 5% 0 5%;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+/*LINKS*/
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+   color: gray;
+}
+
+a:active {
+    color: gray;
+}
+
+.portfolio div{
+    padding: 0 2px 0 2px;
+    height: 400px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footer{
+  size: .25em;
+}
+
+
+/*SCREEN WIDTH 800+ 
+@media only screen and (min-width: 500px){
+  
+}*/
+
+
+@media only screen and (min-width: 1110px){
+    .portfolio div{
+      width: 49%;
+      padding: 5px;
+      float: left;
+      clear: right;
+    }
+  } 
+
+    
+    #contact{
+      clear: left;
+    }
+
+  }
